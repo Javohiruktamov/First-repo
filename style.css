@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    border-top: 4px solid #FF7500;
+    margin: auto;
+}
+
+header nav {
+    width: 1100px;
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+
+}
+
+header nav ul:nth-child(2) {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+
+section{
+    background-color: #252420;
+    
+}
+
+.card___wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+.card___wrapper .card {
+    display: inline-block;
+    width: 45%;
+    color: white;
+    padding: 20px;
+    vertical-align: middle;
+    padding: 60px 80px;
+}
+
+.card___wrapper .card img {
+    width: 100%;
+}
+
+.card___wrapper .card:nth-child(1) {
+    width: 45%;
+}
+
+.card___wrapper .card h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card___wrapper .card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #FF7500;
+    color: white;
+    border: 1px solid #FF7500;
+    width: 150px;
+    height: 39px;
+    padding: 12px 16px;
+
+}
+.card___wrapper2{
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.card___wrapper2 .xato{
+    width: 1100px;
+    margin: auto;
+}
+.card___wrapper2 .car{
+    background-color: #FF7500;
+    width: 80px;
+    height: 4px;
+}
+.card___wrapper2 .h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+.card___wrapper2 .card1{
+    display: inline-block;
+    width: 340px;
+    text-align: left;
+    margin: 20px 10px 50px 10px ;
+    padding: 10px;
+    
+} 
+.card___wrapper2 .card1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card___wrapper2 .card1 h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card___wrapper2 .card1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card___wrapper3{
+    width: 1100px;
+    background-color: #252420;
+    color: white;
+   
+    margin: auto;
+}
+.card___wrapper3 .card3{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 60px 40px ;
+   
+}
+.card___wrapper3 .card3:nth-child(1){
+    width: 30%;
+}
+
+
